@@ -1,6 +1,6 @@
 #include <Arduino.h>
 #include <DHT.h>
-#include DHIPIN 2
+#define DHIPIN 2
 #define DHTTYPE DHT11
 
 DHT dht(DHTPIN, DHTTYPE);
