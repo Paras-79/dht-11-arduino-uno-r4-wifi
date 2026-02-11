@@ -1,6 +1,6 @@
 #include <Arduino.h>
 #include <DHT.h>
-#define DHIPIN 2
+#define DHTPIN 2
 #define DHTTYPE DHT11
 
 DHT dht(DHTPIN, DHTTYPE);
@@ -25,7 +25,4 @@ void loop() {
     Serial.print(temperature);
     Serial.println("°C");
     delay(2000);
-}
-
-
 }
